@@ -14,7 +14,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    @IBOutlet weak var textLabel: UILabel!
+    @IBOutlet weak var textField: UITextField!
+    
+    @IBAction func setTextButtonTapped(_ sender: UIButton) {
+        textLabel.text = textField.text
+    }
+    @IBAction func clearTextButtonTapped(_ sender: UIButton) {
+        textField.text = ""
+        textLabel.text = ""
+    }
+    
 
 }
 
