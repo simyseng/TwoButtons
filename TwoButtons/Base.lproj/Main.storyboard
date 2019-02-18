@@ -41,7 +41,7 @@
                                     <action selector="clearTextButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uCZ-Ij-VgX"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter text to display in the label below" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dww-YD-zWY">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter text to display in the label below" textAlignment="natural" minimumFontSize="17" background="background" translatesAutoresizingMaskIntoConstraints="NO" id="dww-YD-zWY">
                                 <rect key="frame" x="16" y="250" width="343" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
@@ -62,4 +62,7 @@
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="background" width="302" height="87"/>
+    </resources>
 </document>
